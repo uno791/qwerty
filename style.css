@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar */
+#hi {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top{
+    color: white;
+    padding: 10px;
+}
+
+.change{
+    text-decoration: solid;
+    color: white;
+    font-size: 16px;
+}
+
+.about-us {
+    margin: 40px 0;
+}
+
+#abtimg{
+    width: 600px;
+    height: 400px;
+    background: #ccc;
+}
+
+.services {
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    width: 600px;
+}
+
+.service img {
+    width: 100%;
+    height: 400px;
+    background: #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;
+}
